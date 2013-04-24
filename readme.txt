@@ -1,8 +1,6 @@
 Team
 Name: Scott Rumsey
-UTEID: sr27374
 Name: Alonso Salas
-UTEID: abs85
 
 How to use the app:
 When you open the app the first screen that will open will be the home screen. 
