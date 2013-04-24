@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">Adoption Center</string>
+    <string name="title_activity_adoption_center">Adoption Center</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">Image Grid Example</string>
+    <string name="ac_name_image_pager">Image Pager Example</string>
+    <string name="ac_name_image_gallery">Image Gallery Example</string>
+    <!-- Labels -->
+    <string name="label_activity">Choose Pet</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_settings">Clear disc cache</string>
+    <string name="dog_button">Available Dogs</string>
+    <string name="cat_button">Available Cats</string>
+    <string name="button_image_grid">Image Grid</string>
+    <string name="button_image_pager">Image Pager</string>
+    <string name="button_image_gallery">Image Gallery</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pet_list">PetListActivity</string>
+    <string name="title_activity_pet_profile">PetProfileActivity</string>
+    
+   	<string name="sex_label">Sex:</string>
+   	<string name="breed_label">Breed:</string>
+   	<string name="size_label">Size:</string>
+   	<string name="DOB_label">Date of Birth:</string>
+   	<string name="age_label">Age:</string>
+   	<string name="color_label">Coloring:</string>
+   	<string name="spayed_label">Spayed/Neutered:</string>
+   	<string name="fee_label">Adoption Donation: </string>
+   	<string name="none"></string>
+   	<string name="chooseSex">Gender: </string>
+   	<string name="chooseAge">Age: </string>
+   	<string name="adopt">How to Adopt</string>
+   	<string name="location">Location</string>
+   	
+   	<string name="apa_website">APA Website</string>
+   	
+   	   	<string name="age_prompt">Choose an age</string>
+   	<string-array name="age_list">
+   	     <item>All</item>
+        <item>Under 1 Year</item>
+        <item>Over 1 Year</item>
+    </string-array>
+    
+   	<string name="sex_prompt">Choose a gender</string>
+   	<string-array name="sex_list">
+   	     <item>All</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+</resources>

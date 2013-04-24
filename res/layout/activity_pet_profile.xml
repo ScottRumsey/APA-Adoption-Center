@@ -1,0 +1,65 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="vertical"
+	    android:padding = "10dp">
+	    
+	     <TextView
+	         	android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:id="@+id/pet_name"
+		        android:text="@string/none"
+		        android:textSize="20dp"
+		        android:padding="10dp" 
+		        android:gravity ="center"/>
+	     
+	     <ImageView
+	         android:id="@+id/img"
+	         android:layout_width="200dip"
+	         android:layout_height="200dip"
+	         android:layout_gravity="center_horizontal"
+	         android:contentDescription="@string/none" />
+	
+	    <TableLayout
+	  	  	android:layout_width="match_parent"  
+	    	android:layout_height="match_parent"
+	    	android:id= "@+id/table" 
+	    	android:shrinkColumns="1"  
+	    	android:stretchColumns="1"
+	    	android:padding="10dip"> 
+	    
+	
+	    </TableLayout>
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/description"
+	        android:text = "@string/none"
+	        android:padding = "10dip" />
+	    
+	    <Button
+	        android:layout_width="200dip"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dip"
+	        android:onClick="onAdoptClick"
+	        android:text="@string/adopt" 
+	        android:layout_gravity="center_horizontal"/>
+	    
+	   	<Button
+	        android:layout_width="200dip"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:onClick="onLocationClick"
+	        android:text="@string/location" 
+	        android:layout_gravity="center_horizontal"/>
+	    
+	</LinearLayout>
+</ScrollView>

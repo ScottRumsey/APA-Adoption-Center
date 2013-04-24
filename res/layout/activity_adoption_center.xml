@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+
+    
+    <ImageView
+        android:layout_width = "200dip"
+        android:layout_height= "200dip"
+        android:gravity = "center"
+        android:src="@drawable/apa" 
+        android:contentDescription="@string/none"/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/label_activity"
+        android:textSize="20dip" 
+        android:gravity="center"/>
+    
+    <TableLayout
+  	  	android:layout_width="wrap_content"  
+	    android:layout_height="wrap_content"
+	   	android:shrinkColumns="1"  
+	   	android:gravity="center_horizontal">
+	   	
+		<TableRow
+		    android:layout_width="match_parent"
+	  	  	android:layout_height="wrap_content"
+	  	  	android:gravity= "center_horizontal"
+	  	  	android:padding="5dip">
+	  	  	
+	    	<TextView
+				android:layout_width="match_parent"
+	  	  		android:layout_height="wrap_content" 
+	  	  		android:text="@string/chooseSex" />    
+	  	  			    
+		     <Spinner
+		        android:id="@+id/sex_spinner"
+		        android:layout_width="wrap_content"
+		        android:gravity = "center"
+		        android:layout_height="wrap_content"
+		        android:entries="@array/sex_list"
+		        android:prompt="@string/sex_prompt" />
+	     </TableRow>
+	     
+		<TableRow
+		    android:layout_width="match_parent"
+	  	  	android:layout_height="wrap_content"
+	  	  	android:gravity= "center_horizontal"
+	  	  	android:padding="5dip">
+	  	  	
+	    	<TextView
+				android:layout_width="match_parent"
+	  	  		android:layout_height="wrap_content" 
+	  	  		android:text="@string/chooseAge" />    
+	  	  			    
+		    <Spinner
+		        android:id="@+id/age_spinner"
+		        android:layout_width="wrap_content"
+		        android:gravity = "center"
+		        android:layout_height="wrap_content"
+		        android:entries="@array/age_list"
+		        android:prompt="@string/age_prompt" />
+	     </TableRow>
+	</TableLayout>
+    
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:onClick="onDogClick"
+        android:text="@string/dog_button" 
+            android:gravity="center"/>
+    
+    <Button
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:onClick="onCatClick"
+        android:text="@string/cat_button" 
+        android:gravity="center"/>
+    
+</LinearLayout>
